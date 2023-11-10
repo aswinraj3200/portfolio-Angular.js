@@ -1,0 +1,83 @@
+.box{
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+.left{
+    flex-basis: 35%;
+}
+.left p{
+    color: white;
+    margin-top: 50px;
+}
+.left p i{
+    color: #ff004f;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.media{
+    margin-top: 30px;
+}
+.media a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 15px;
+    display: inline-block;
+    color: #ababab;
+    transition: transform 0.5s;
+}
+.media a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.btn{
+    background: #ff004f;
+    color: #fbf9f6;
+    width: 121px;
+    height: 48px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn i{
+    margin-left: 15px;
+}
+#email{
+    font-size: 25px;
+}
+#phone{
+    font-size: 25px;
+}
+.copyright span{
+    color: #ababab;
+}
+.right{
+    width: 400px;
+    height: 350px;
+    margin-left: 10px;
+    border-left: 1px solid #ababab;
+    display: flex;
+    justify-content: centeer;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 10px;
+    color: white;
+    margin-left: 50%;
+    border-radius: 10px;
+    width: 200px;
+    height: 45px;
+    border: 1px solid #ff004f;
+    background: transparent;
+    transition: tranform 0.8s;
+}
+button:hover{
+    background: #ff004f;
+}

@@ -1,0 +1,54 @@
+.box{
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+.box div{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    width: 380px;
+    height: 545px;
+    color: white;
+    border-radius: 20px;
+    transition: transform .8s ease;
+}
+div>h2{
+    margin-bottom: 250px;
+    
+}
+div>p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.web{
+    background-image: url('/assets/images/webdesign.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flutter{
+    background-image:url('/assets/images/flutter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.node{
+    background-image: url('/assets/images/backend.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box div:hover{
+    transform: translateY(-12px);
+    border-bottom: 3px solid #ff004f;
+}
+

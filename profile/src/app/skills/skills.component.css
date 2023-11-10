@@ -1,0 +1,69 @@
+.box{
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+ul{
+    list-style-type: none;
+}
+.left h2{
+    text-align: center;
+}
+.right h2{
+    text-align: center;
+}
+li{
+    font-size: 19px;
+    font-weight: 100;
+    padding: 15px;
+}
+.left div{
+    width: 490px;
+    height: 155px;
+    padding: 9px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    font-weight: 100;
+    transition: transform .6s ease,border-left .3s;
+}
+p{
+    color: #ababab;
+}
+.hschool{
+    padding: 10px;
+}
+.school{
+    padding: 10px;
+}
+.tech{
+    margin: 10px;
+}
+.left div:hover{
+    transform: translateX(10px);
+    border-left:3px solid #ff004f ;
+}
+.list-container{
+    display: flex;
+    flex-direction: column;
+}
+.list-item{
+    margin: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: #ababab;
+    transition: transform .6s ease,border-left .3s;
+}
+.list-item:hover{
+    transform: translateX(10px);
+    border-left: 3px solid #ff004f;
+}
